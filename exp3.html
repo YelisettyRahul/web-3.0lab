@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="Author" content="Yelisetty Rahul">
+  <meta name="description" content="web lab.">
+
+  <title>WEB lab </title>
+  
+</head>
+
+<body>
+    <article id="contact">
+        <h2>Contact Me</h2>
+        <p>What Are you Thoughts About Us!</p>
+        <form action="https://httpbin.org/get" method="get>
+           <fieldset>
+             <legend>Personal Information</legend>
+          <p> 
+          <label for=" firstname">First Name:</label>
+          <input type="text" name="firstname" id="firstname" placeholder=" e.g: Sam" autocomplete="on" required autofocus>
+          </p>
+          <p>
+            <label for="lastname">Last Name:</label>
+            <input type="text" name="lastname" id="lastname" placeholder="e.g: sung" autocomplete="on" required autofocus>
+          </p>
+          <p>
+            <label for="Email address">Email Address:</label>
+            <input type="text" name="Email address" id="Email Address" placeholder="e.g: samsung7gmail.com"
+              autocomplete="on" required autofocus>
+          </p>
+          6
+          <p>
+            <label for="Phone">Phone:</label>
+            <input type="tel" name="Phone" id="Phone" placeholder="5555555555" autocomplete="on" required
+              pattern="[0-9]{3}[0-9]{3}[0-9]{4}" autofocus>
+          </p>
+          <p>
+            <label for="dateofbirth">Born-Year</label>
+            <input type="number" name="dateofbirth" id="dateofbirth" autocomplete="on" min="1950" max="2018" step="5"
+              value="1975" autofocus>
+          </p>
+          <p>
+            <label for="website">How is the website ?</label>
+            <select name="website" id="website">
+              <option value="Execellent">Execellent</option>
+              <option value="Very good">Very good</option>
+              <option value="good" selected>Good</option>
+              <option value="Average">Average</option>
+              <option value="Below Average">Below Average</option>
+              <option value="Poor">Poor</option>
+            </select>
+          </p>
+          </fieldset>
+          <br>
+          <fieldset>
+            <legend>what is your favourite category</legend>
+            <p>
+              <input type="radio" name="category" id="gaming" value="gaming">
+              <label for="gaming">Gaming</label>
+            </p>
+            <p>
+              <input type="radio" name="category" id="travel" value="travel">
+              <label for="travel">Travel</label>
+            </p>
+            <p>
+              <input type="radio" name="category" id="fitness and health" value="fitness and health">
+              <label for="fitness and health">Fitness and Health</label>
+            </p>
+            <p>
+              <input type="radio" name="category" id="others" value="others">
+              <label for="others">others</label>
+            </p>
+          </fieldset>
+          <br>
+          <fieldset>
+            <legend>What are you favourite games ?</legend>
+            <p>
+              <input type="checkbox" name="games" id="Splinter cell Conviction" value="Splinter cell Conviction">
+              <label for="Splinter cell Conviction">Splinter cell Conviction</label>
+            </p>
+            <p>
+              <input type="checkbox" name="games" id="Dead by Daylight" value="Dead by Daylight">
+              <label for="Dead by Daylight">Dead by Daylight</label>
+            </p>
+            <p>
+              <input type="checkbox" name="games" id="Call of duty" value="Call of duty">
+              <label for="Call of duty">Call of duty</label>
+            </p>
+            <p>
+              <input type="checkbox" name="games" id="Others" value="others">
+              <label for="others">others</label>
+            </p>
+          </fieldset>
+          <br>
+          <fieldset>
+            <legend>Send Me A Note</legend>
+            <label for="message">Your Message : </label>
+            <br>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Type you message here"></textarea>
+          </fieldset>
+          <br>
+          <button type="submit">Submit</button>
+          <button type="reset">Reset</button>
+        </form>
+  
+      </article>
+
+</body>
+
+</html>
